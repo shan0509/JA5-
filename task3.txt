@@ -1,0 +1,15 @@
+First name	F							T		
+Last name		F						T		
+Email				F					T	
+Phone number				F				T
+Date/time								T		
+						F				
+										
+										
+Test scenario	Test scenario name	Test case ID	Test case name	Description	Pre request	Test data	Test steps	Expected result	Actual result	status
+TS-1	Login the app	TC_001	Creating the account on the app	1.enter the username2.Enter the password3. navigate to the app	login this app	Username:app245512password:P@ssword2	Go to the app and enter the validnusername and password	valid username and password	creating the account with user name and password	pass
+										
+TS-1	Sending mail	Tc_001	To confirm the mail 	Open the mail and navigate to that mail.	open the gmail	files	Open the email and we have to seen whether the email is there are not	the email is displayed on the screen	error:actually email is there but that’s not the confirmation mail	fail
+										
+										
+TS1	Login the app	TC_003	Deleting the account	Go to the login page of the account and click the option and delete the account created there	deleting the account	User name and password deleted successfully	Go to the app and delete the username	The account deleted successfully	deleted the account	pass
